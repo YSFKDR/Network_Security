@@ -62,6 +62,7 @@ Network_Security/
 ├── main.py                    # Main script to run the application
 ├── icon.png                   # Application icon
 └── README.md                  # Project documentation
+```
 
 ## License
 
