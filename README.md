@@ -1,6 +1,8 @@
 # Network Security Tool
 
-**Network Security Tool** is a home network security monitoring and reporting tool. It captures network traffic data, device inventory, and alerts, and generates user-friendly HTML reports that are sent via email weekly.
+**Network Security Tool** is a home network security monitoring and reporting tool. It captures network traffic data, device inventory, and alerts, and generates user-friendly HTML reports that are sent via email.
+
+**Note:** This tool was created on Linux, and the instructions are primarily for Linux users. If you are using a different operating system, you might need to adjust the commands accordingly.
 
 ## Features
 

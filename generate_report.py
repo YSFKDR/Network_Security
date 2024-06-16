@@ -39,9 +39,9 @@ def send_email(report_file):
     msg = MIMEMultipart()
     msg['From'] = from_addr
     msg['To'] = to_addr
-    msg['Subject'] = "Weekly Network Security Report"
+    msg['Subject'] = "Network Security Report"
 
-    body = "Please find the attached weekly network security report."
+    body = "Please find the attached network security report."
     msg.attach(MIMEText(body, 'plain'))
 
     with open(report_file, 'r') as file:
