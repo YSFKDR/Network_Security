@@ -46,20 +46,22 @@
 
 ## Directory Structure
 
+```markdown
 Network_Security/
 ├── data/
-│ ├── traffic_data/
-│ ├── device_inventory/
-│ ├── alerts_logs/
-├── reports/
-├── nsenv/
-├── traffic_data_capture.py
-├── device_discovery.py
-├── alert_logging.py
-├── generate_report.py
-├── manage_data_size.py
-├── main.py
-└── README.md
+│   ├── traffic_data/          # Captured traffic data files
+│   ├── device_inventory/      # Discovered device inventory files
+│   ├── alerts_logs/           # Logged alert files
+├── reports/                   # Generated reports
+├── nsenv/                     # Virtual environment directory
+├── traffic_data_capture.py    # Script to capture network traffic data
+├── device_discovery.py        # Script to discover devices on the network
+├── alert_logging.py           # Script to log alerts and anomalies
+├── generate_report.py         # Script to generate and email reports
+├── manage_data_size.py        # Script to manage data size and delete old files
+├── main.py                    # Main script to run the application
+├── icon.png                   # Application icon
+└── README.md                  # Project documentation
 
 ## License
 
